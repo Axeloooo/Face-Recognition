@@ -57,7 +57,7 @@ Images capture variability in lighting conditions, facial expressions (open/clos
 The dataset is gitignored. Restore it from the tracked archive:
 
 ```bash
-unzip data/dataset.zip
+unzip data/dataset.zip -d data/dataset
 ```
 
 ---
@@ -158,13 +158,13 @@ source .venv/bin/activate   # macOS / Linux
 3. Install dependencies (only if running locally; skip if using Anaconda, Miniconda, or Google Colab):
 
 ```bash
-pip install scikit-learn scikit-image opencv-python numpy matplotlib seaborn pandas notebook
+ pip install -r requirements.txt
 ```
 
 4. Restore the dataset (optional):
 
 ```bash
-unzip data/dataset.zip
+unzip data/dataset.zip -d data/dataset
 ```
 
 5. Launch the notebook :
