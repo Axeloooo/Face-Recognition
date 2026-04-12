@@ -41,7 +41,7 @@ Face recognition is a fundamental problem in computer vision with applications r
 
 ## Dataset
 
-The **AT&T face database** (formerly ORL) contains:
+The **AT&T face database** contains:
 
 | Property           | Value                       |
 | ------------------ | --------------------------- |
@@ -57,7 +57,7 @@ Images capture variability in lighting conditions, facial expressions (open/clos
 The dataset is gitignored. Restore it from the tracked archive:
 
 ```bash
-unzip dataset.zip
+unzip data/dataset.zip
 ```
 
 ---
@@ -147,7 +147,7 @@ git clone https://github.com/Axeloooo/Face-Recognition.git
 cd Face-Recognition
 ```
 
-2. Create and activate a virtual environment:
+2. Create and activate a virtual environment (only if running locally; skip if using Anaconda, Miniconda, or Google Colab):
 
 ```bash
 python -m venv .venv
@@ -155,19 +155,19 @@ source .venv/bin/activate   # macOS / Linux
 .venv\Scripts\activate      # Windows
 ```
 
-3. Install dependencies:
+3. Install dependencies (only if running locally; skip if using Anaconda, Miniconda, or Google Colab):
 
 ```bash
 pip install scikit-learn scikit-image opencv-python numpy matplotlib seaborn pandas notebook
 ```
 
-4. Restore the dataset:
+4. Restore the dataset (optional):
 
 ```bash
-unzip dataset.zip
+unzip data/dataset.zip
 ```
 
-5. Launch the notebook:
+5. Launch the notebook :
 
 ```bash
 jupyter notebook face_recognition.ipynb
@@ -179,10 +179,10 @@ jupyter notebook face_recognition.ipynb
 
 ## Contributors
 
-| Name                      | GitHub Username |
-| ------------------------- | --------------- |
-| Axel Omar Sanchez Peralta | Axeloooo        |
-| Mariia Podgaietska        | podgaietska     |
+| Name                      | UCID     | GitHub Username |
+| ------------------------- | -------- | --------------- |
+| Axel Omar Sanchez Peralta | 30145429 | Axeloooo        |
+| Mariia Podgaietska        | 30151330 | podgaietska     |
 
 ---
 
